@@ -1,0 +1,61 @@
+body {
+  background-image: url('../../../wp-content/uploads/2021/08/saumalogin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login h1 a {
+  background-repeat: no-repeat;
+  background-size: 300px;
+  width: 300px;
+}
+
+.login form {
+  background: rgba( 255, 255, 255, .7 );
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.wp-core-ui .button-primary {
+  background: #253e9b;
+  border-color: #253e9b;
+}
+
+a, a:hover {
+  color: #253e9b;
+}
+
+.login #backtoblog a, .login #nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover {
+  text-decoration: underline;
+  color: #253e9b;
+}
+
+.login .button.wp-hide-pw .dashicons {
+  color: #253e9b;
+}
+
+input[type="checkbox"],
+input[type="password"],
+input[type="text"] {
+  background: transparent !important;
+}
+
+input[type="checkbox"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  background: transparent;
+  border-color: #253e9b;
+  box-shadow: 0 0 0 1px #339999;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 25px;
+  padding: 0 15px !important;
+}
